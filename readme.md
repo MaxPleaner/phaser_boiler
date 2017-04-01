@@ -16,6 +16,12 @@ It sets up a project to use coffeescript and webpack.
 
 ---
 
+**example**
+
+take a look at the snood-pinball-coffee folder in the [phaser_wrapper](http://github.com/phaser_wrapper) repo. This can be played
+at [maxpleaner.github.io/pinball](http://maxpleaner.github.io/pinball). This boiler was extracted from that project so the file
+organization is the same.
+
 **guide to source code**
 
 - `webpack.config.js` is the entry point for _development_ mode webpack. It starts a static server on port 8080
@@ -54,7 +60,7 @@ compiles all the coffeescripts into a `prod-bundle.js` that can be deployed to a
   - `state.coffee` - properties that make up the initial state of the game.
   - `util.coffee` - Alot of the files in this repo are sparse, but `util.coffee` has an API that can be used to build the game.
     There are a bunch of methods in there:
-    - `random_int(min_max)`
+    - `random_int(min, max)`
     - `random_from_list(list)`
     - `collide_world_bounds(sprite)` - limit the sprite's movement to the game board
     - `add_physics_file(sprite, physics_file, physics_file_key)` - physics files are used to create polygonal hitboxes.  
