@@ -38,7 +38,7 @@ compiles all the coffeescripts into a `prod-bundle.js` that can be deployed to a
 
 - _assets_: There are two folders for assets. The `asset-src` is intended to be used for incomplete assets - for example the original version of an image that is
   modified for use in the game. `assets` is indended as a place for finished assets of any kind. Files in here have their paths specified in `assets.coffee`.
-  This boiler ships with just one sample asset.
+  This boiler ships with nothing here
 
 - _lib folder_: This one is more complex than the rest and is where the core of the game lives.
   - `game_loader.coffee` (required by `loader.coffee`). It loads `play_state.coffee` and sets it as the initial state of the game.
