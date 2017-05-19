@@ -18,7 +18,7 @@ It sets up a project to use coffeescript and webpack.
 
 **example**
 
-take a look at the snood-pinball-coffee folder in the [phaser_wrapper](http://github.com/phaser_wrapper) repo. This can be played
+take a look at the snood-pinball-coffee folder in the [phaser_wrapper](http://github.com/maxpleaner/phaser_wrapper) repo. This can be played
 at [maxpleaner.github.io/pinball](http://maxpleaner.github.io/pinball). This boiler was extracted from that project so the file
 organization is the same.
 
